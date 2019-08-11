@@ -85,10 +85,10 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
+    margin: 3.2px 0;
     background: #ccc;
     color: #000;
-    padding: 0.2em 0;
+    padding: 3.2px 0;
 }
 
 /* ==========================================================================
@@ -103,7 +103,7 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  padding: 32px;
   font-size: 1.25em;
   height: 100%;
 }
@@ -117,17 +117,23 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #A9A9A9;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: sans-serif;
+  font-weight: 100;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
   height: 300px;
   width: 30%;
 }
 
+.div-2, .div-3 {
+  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+  border-left: 3px solid;
+  padding-left: 20px;
+}
 
 
 
