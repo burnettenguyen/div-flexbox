@@ -108,31 +108,46 @@ body {
   height: 100%;
 }
 
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+.flex-container {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
-.div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #A9A9A9;
+.flex-container h1 {
+  font-weight: 700;
+  display: flex;
+  width: 100%;
+}
+
+.flex-container main {
+  background-color: #00e6e6;
+  font-family: sans-serif;
+  color: #808080;
+  font-weight: 100;
+  display: flex;
+  width: 100%;
+  padding: 20px 0 20px 20px;
+  border-top: 3px solid #808080;
+  border-bottom: 3px solid #808080;
+}
+
+.flex-item {
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
+  color: #A9A9A9;
   font-weight: 100;
   line-height: 1.5em;
   font-size: 1em;
   height: 300px;
   width: 30%;
+  padding: 20px 0 20px 20px;
 }
 
-.div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  border-left: 3px solid;
-  padding-left: 20px;
+#div-2, #div-3 {
+  border-left: 3px solid #808080;
 }
 
 
